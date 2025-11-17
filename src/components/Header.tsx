@@ -22,7 +22,7 @@ export const Header = () => {
           <Link to="/" className="flex items-center gap-2 font-bold text-xl">
             <Star className="h-6 w-6 text-accent fill-accent" />
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              Melhores Reviews
+              Reviews Smart TVs
             </span>
           </Link>
 
