@@ -11,6 +11,11 @@ import Transparencia from "./pages/Transparencia";
 import Disclaimer from "./pages/Disclaimer";
 import NotFound from "./pages/NotFound";
 import TvHisense40A4N from "./pages/artigos/TvHisense40A4N";
+import TvHisenseA6H from "./pages/artigos/TvHisenseA6H";
+import TvPhilcoRoku43 from "./pages/artigos/TvPhilcoRoku43";
+import TvBritania50 from "./pages/artigos/TvBritania50";
+import TvToshibaQLED from "./pages/artigos/TvToshibaQLED";
+import TvAOCRoku32 from "./pages/artigos/TvAOCRoku32";
 import Hisense from "./pages/marcas/Hisense";
 import Philco from "./pages/marcas/Philco";
 import Britania from "./pages/marcas/Britania";
@@ -36,6 +41,11 @@ const App = () => (
           <Route path="/transparencia" element={<Transparencia />} />
           <Route path="/disclaimer" element={<Disclaimer />} />
           <Route path="/artigos/tv-hisense-40a4n-e-boa" element={<TvHisense40A4N />} />
+          <Route path="/artigos/tv-hisense-a6h-e-boa" element={<TvHisenseA6H />} />
+          <Route path="/artigos/tv-philco-roku-43-e-boa" element={<TvPhilcoRoku43 />} />
+          <Route path="/artigos/tv-britania-50-e-boa" element={<TvBritania50 />} />
+          <Route path="/artigos/tv-toshiba-qled-e-boa" element={<TvToshibaQLED />} />
+          <Route path="/artigos/tv-aoc-roku-32-e-boa" element={<TvAOCRoku32 />} />
           <Route path="/marcas/hisense" element={<Hisense />} />
           <Route path="/marcas/philco" element={<Philco />} />
           <Route path="/marca/philco" element={<Philco />} />
