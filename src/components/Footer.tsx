@@ -10,11 +10,11 @@ export const Footer = () => {
             <Link to="/" className="flex items-center gap-2 font-bold text-lg mb-4">
               <Star className="h-5 w-5 text-accent fill-accent" />
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Melhores Reviews
+                Reviews Smart TVs
               </span>
             </Link>
             <p className="text-sm text-muted-foreground">
-              As melhores análises de produtos com foco em qualidade, procedência de marcas e avaliações reais.
+              Análises honestas e completas de Smart TVs vendidas no Brasil. Reviews detalhados com especificações técnicas e comparativos.
             </p>
           </div>
 
@@ -47,7 +47,7 @@ export const Footer = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Melhores Reviews. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} Reviews Smart TVs. Todos os direitos reservados.</p>
           <p className="mt-2">
             Site participante do Programa de Afiliados do Mercado Livre. 
             Recebemos comissões por compras qualificadas através de nossos links.
