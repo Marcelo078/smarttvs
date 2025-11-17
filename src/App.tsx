@@ -10,6 +10,8 @@ import Termos from "./pages/Termos";
 import Transparencia from "./pages/Transparencia";
 import Disclaimer from "./pages/Disclaimer";
 import NotFound from "./pages/NotFound";
+import TvHisense40A4N from "./pages/artigos/TvHisense40A4N";
+import Hisense from "./pages/marcas/Hisense";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +28,8 @@ const App = () => (
           <Route path="/termos" element={<Termos />} />
           <Route path="/transparencia" element={<Transparencia />} />
           <Route path="/disclaimer" element={<Disclaimer />} />
+          <Route path="/artigos/tv-hisense-40a4n-e-boa" element={<TvHisense40A4N />} />
+          <Route path="/marcas/hisense" element={<Hisense />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
