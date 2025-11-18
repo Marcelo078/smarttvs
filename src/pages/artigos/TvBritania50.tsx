@@ -30,11 +30,11 @@ const TvBritania50 = () => {
   return (
     <>
       <Helmet>
-        <title>TV Britânia 50&quot; é Boa? Análise Completa 2025 | Vale a Pena Comprar?</title>
+        <title>TV Britânia 50 Polegadas é Boa? Análise Completa 2025</title>
         <meta name="description" content="➤ Análise COMPLETA da TV Britânia 50 polegadas 4K. Descubra se vale a pena, especificações técnicas, qualidade de imagem, prós e contras e melhor preço 2025." />
         <meta name="keywords" content="TV Britânia 50 polegadas é boa, Britânia 4K 50 vale a pena, Smart TV Britânia análise, TV barata 50 polegadas, Britânia BTV50D08N4KZS review" />
         
-        <meta property="og:title" content="TV Britânia 50\" é Boa? Análise Completa 2025" />
+        <meta property="og:title" content="TV Britânia 50 Polegadas é Boa? Análise 2025" />
         <meta property="og:description" content="Descubra tudo sobre a TV Britânia 50 polegadas 4K: especificações técnicas, qualidade de imagem, custo-benefício e se realmente vale a pena comprar." />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://images.unsplash.com/photo-1593784991095-a205069470b6?w=1200&q=80" />
@@ -281,7 +281,8 @@ const TvBritania50 = () => {
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-semibold">Armazenamento</TableCell>
-                      <TableCell">8GB eMMC (para apps)</TableCell>
+                      <TableCell className="font-semibold">Armazenamento</TableCell>
+                      <TableCell>8GB eMMC (para apps)</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-semibold">Áudio</TableCell>

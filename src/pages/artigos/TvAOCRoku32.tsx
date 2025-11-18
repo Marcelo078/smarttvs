@@ -30,12 +30,12 @@ const TvAOCRoku32 = () => {
   return (
     <>
       <Helmet>
-        <title>TV AOC Roku 32&quot; é Boa? Análise Completa 2025 | Vale a Pena Comprar?</title>
-        <meta name="description" content="Análise COMPLETA da TV AOC Roku 32 polegadas HD. Descubra se vale a pena, sistema Roku TV, especificações técnicas, prós e contras e melhor preço 2025 para quartos." />
+        <title>TV AOC Roku 32 Polegadas é Boa? Análise Completa 2025</title>
+        <meta name="description" content="Análise COMPLETA da TV AOC Roku 32 polegadas HD. Descubra se vale a pena, sistema Roku TV, especificações técnicas, prós e contras e melhor preço 2025." />
         <meta name="keywords" content="TV AOC Roku 32 é boa, AOC 32S5195 análise, Roku TV 32 polegadas, TV para quarto pequeno, Smart TV barata AOC, melhor TV 32 2025" />
         
-        <meta property="og:title" content="TV AOC Roku 32\" é Boa? Análise Completa 2025" />
-        <meta property="og:description" content="Descubra tudo sobre a AOC Roku TV 32\": sistema Roku TV, ideal para quartos, custo-benefício e se realmente vale a pena comprar." />
+        <meta property="og:title" content="TV AOC Roku 32 Polegadas é Boa? Análise 2025" />
+        <meta property="og:description" content="Descubra tudo sobre a AOC Roku TV 32 polegadas: sistema Roku TV, ideal para quartos, custo-benefício e se vale a pena comprar." />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=1200&q=80" />
         
@@ -285,7 +285,8 @@ const TvAOCRoku32 = () => {
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-semibold">HDMI ARC</TableCell>
-                      <TableCell">Sim (HDMI 1)</TableCell>
+                      <TableCell className="font-semibold">HDMI ARC</TableCell>
+                      <TableCell>Sim (HDMI 1)</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-semibold">Bluetooth</TableCell>
