@@ -60,9 +60,9 @@ const brands = [
     models: 4
   },
   {
-    name: "HQT",
+    name: "HQ",
     description: "Marca em ascensão no mercado brasileiro. Análises honestas sobre durabilidade e qualidade.",
-    path: "/marca/hqt",
+    path: "/marca/hq",
     image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&q=80",
     models: 6
   },
@@ -80,7 +80,7 @@ const keywordQuestions = [
     category: "transactional",
     icon: CheckCircle2,
     questions: [
-      { text: "TV Hisense 40 polegadas é boa?", path: "/artigo/tv-hisense-40a4n" },
+      { text: "TV Hisense 40 polegadas é boa?", path: "/artigos/tv-hisense-40a4n-e-boa" },
       { text: "TV Philco Roku vale a pena comprar?", path: "/marca/philco" },
       { text: "Qual a melhor TV 4K barata 2025?", path: "/marca/hisense" },
       { text: "TV Britânia 50 polegadas é confiável?", path: "/marca/britania" },
@@ -115,8 +115,8 @@ const brandIndexData = [
   {
     name: "Hisense",
     models: [
-      { name: "TV Hisense 40A4N é boa?", path: "/artigo/tv-hisense-40a4n", badge: "REVIEW COMPLETO" },
-      { name: "TV Hisense A6H vale a pena?", path: "/marca/hisense", badge: "COMPARATIVO" },
+      { name: "TV Hisense 40A4N é boa?", path: "/artigos/tv-hisense-40a4n-e-boa", badge: "REVIEW COMPLETO" },
+      { name: "TV Hisense A6H vale a pena?", path: "/artigos/tv-hisense-a6h-e-boa", badge: "REVIEW COMPLETO" },
       { name: "TV Hisense QLED 55Q6N - Análise 2025", path: "/marca/hisense" },
       { name: "TV Hisense 50 polegadas 4K - Top 3", path: "/marca/hisense" },
       { name: "TV Hisense U6H ULED: compensa o preço?", path: "/marca/hisense" },
@@ -133,8 +133,8 @@ const brandIndexData = [
   {
     name: "Philco",
     models: [
+      { name: "Philco Roku TV 43 polegadas vale a pena?", path: "/artigos/tv-philco-roku-43-e-boa", badge: "REVIEW COMPLETO" },
       { name: "Philco Roku TV 32 polegadas", path: "/marca/philco", badge: "MAIS VENDIDA" },
-      { name: "Philco Roku TV 43 polegadas vale a pena?", path: "/marca/philco" },
       { name: "Philco 50 polegadas 4K análise completa", path: "/marca/philco" },
       { name: "Philco vs TCL: qual é melhor?", path: "/marca/philco" },
     ],
@@ -150,8 +150,8 @@ const brandIndexData = [
   {
     name: "Britânia",
     models: [
+      { name: "Britânia 50 polegadas vale a pena?", path: "/artigos/tv-britania-50-e-boa", badge: "REVIEW COMPLETO" },
       { name: "Britânia 40 polegadas é boa?", path: "/marca/britania" },
-      { name: "Britânia 50 polegadas vale a pena?", path: "/marca/britania" },
       { name: "Britânia Smart TV funciona bem?", path: "/marca/britania" },
     ],
     questions: [
@@ -161,6 +161,38 @@ const brandIndexData = [
     ],
     path: "/marca/britania",
     rating: 3,
+    image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&q=80"
+  },
+  {
+    name: "Toshiba",
+    models: [
+      { name: "Toshiba QLED é boa?", path: "/artigos/tv-toshiba-qled-e-boa", badge: "REVIEW COMPLETO" },
+      { name: "Toshiba Fire TV 50 polegadas", path: "/marca/toshiba" },
+      { name: "Toshiba C350 QLED análise completa", path: "/marca/toshiba" },
+    ],
+    questions: [
+      { question: "Toshiba é marca confiável?" },
+      { question: "QLED vale a pena?" },
+      { question: "Toshiba tem Fire TV?" },
+    ],
+    path: "/marca/toshiba",
+    rating: 4,
+    image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&q=80"
+  },
+  {
+    name: "AOC",
+    models: [
+      { name: "AOC Roku 32 polegadas é boa?", path: "/artigos/tv-aoc-roku-32-e-boa", badge: "REVIEW COMPLETO" },
+      { name: "AOC Roku TV 43 polegadas", path: "/marca/aoc" },
+      { name: "AOC 50 polegadas 4K análise", path: "/marca/aoc" },
+    ],
+    questions: [
+      { question: "AOC é boa marca?" },
+      { question: "AOC Roku funciona bem?" },
+      { question: "Vale a pena comprar AOC?" },
+    ],
+    path: "/marca/aoc",
+    rating: 4,
     image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&q=80"
   },
 ];
