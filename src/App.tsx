@@ -47,6 +47,7 @@ const App = () => (
           <Route path="/artigos/tv-toshiba-qled-e-boa" element={<TvToshibaQLED />} />
           <Route path="/artigos/tv-aoc-roku-32-e-boa" element={<TvAOCRoku32 />} />
           <Route path="/marcas/hisense" element={<Hisense />} />
+          <Route path="/marca/hisense" element={<Hisense />} />
           <Route path="/marcas/philco" element={<Philco />} />
           <Route path="/marca/philco" element={<Philco />} />
           <Route path="/marcas/britania" element={<Britania />} />
