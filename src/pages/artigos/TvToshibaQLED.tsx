@@ -569,7 +569,7 @@ const TvToshibaQLED = () => {
               <Card>
                 <CardHeader>
                   <CardTitle>🔊 Qualidade de Áudio</CardTitle>
-                </CardContent>
+                </CardHeader>
                 <CardContent className="prose max-w-none">
                   <p>
                     O sistema de áudio <strong>2 x 12W com Dolby Atmos e DTS:X</strong> é acima da média para TVs nesta categoria. O som é claro, diálogos são bem definidos e graves têm presença.
@@ -735,7 +735,7 @@ const TvToshibaQLED = () => {
                   <CardTitle className="text-lg">Posso desativar os anúncios da Fire TV?</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p>Parcialmente. Você pode desativar recomendações personalizadas em Configurações > Preferências > Conteúdo Destacado, mas não remove totalmente anúncios da tela inicial.</p>
+                  <p>Parcialmente. Você pode desativar recomendações personalizadas em Configurações, depois Preferências e Conteúdo Destacado, mas não remove totalmente anúncios da tela inicial.</p>
                 </CardContent>
               </Card>
 
@@ -811,7 +811,7 @@ const TvToshibaQLED = () => {
             <div className="grid md:grid-cols-2 gap-4">
               <Link to="/marcas/toshiba" className="p-4 border rounded-lg hover:border-primary transition-colors">
                 <h3 className="font-semibold mb-2">Toshiba é Boa Marca? Análise Completa</h3>
-                <p className="text-sm text-muted-foreground">Tudo sobre a marca Toshiba: história, qualidade e confiabilidade</p>
+                <p className="text-sm text-muted-foreground">Conheça a marca Toshiba: história, qualidade e confiabilidade</p>
               </Link>
               <Link to="/" className="p-4 border rounded-lg hover:border-primary transition-colors">
                 <h3 className="font-semibold mb-2">QLED vs OLED vs LED: Qual Comprar?</h3>

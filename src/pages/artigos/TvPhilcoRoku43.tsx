@@ -34,8 +34,8 @@ const TvPhilcoRoku43 = () => {
         <meta name="description" content="➤ Análise COMPLETA da TV Philco Roku 43 polegadas FHD. Descubra se vale a pena, especificações técnicas, qualidade da Roku TV, prós e contras e melhor preço 2025." />
         <meta name="keywords" content="TV Philco Roku 43 é boa, Philco Roku TV vale a pena, TV Roku 43 polegadas, Philco PTV43G70SRCBL, Smart TV Roku Philco, melhor TV Roku 2025" />
         
-        <meta property="og:title" content="TV Philco Roku 43\" é Boa? Análise Completa 2025" />
-        <meta property="og:description" content="Descubra tudo sobre a Philco Roku TV 43\": sistema Roku TV, qualidade de imagem Full HD, custo-benefício e se realmente vale a pena comprar." />
+        <meta property="og:title" content="TV Philco Roku 43 Polegadas é Boa? Análise 2025" />
+        <meta property="og:description" content="Descubra tudo sobre a Philco Roku TV 43 polegadas: sistema Roku TV, qualidade Full HD, custo-benefício e se vale a pena." />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=1200&q=80" />
         
@@ -297,7 +297,8 @@ const TvPhilcoRoku43 = () => {
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-semibold">Apps Inclusos</TableCell>
-                      <TableCell">Netflix, Prime Video, YouTube, Disney+, Globoplay, HBO Max, Spotify, Roku Channel (grátis)</TableCell>
+                      <TableCell className="font-semibold">Apps Inclusos</TableCell>
+                      <TableCell>Netflix, Prime Video, YouTube, Disney Plus, Globoplay, HBO Max, Spotify, Roku Channel</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-semibold">Dimensões (com base)</TableCell>
